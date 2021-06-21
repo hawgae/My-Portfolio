@@ -1,0 +1,25 @@
+.section.s01 .scroll {
+  position: absolute;
+  left: 50%;
+  bottom: 3%;
+  transform: translateX(-50%);
+}
+
+.section.s01 .scroll .scroll-arrow {
+  display: block;
+  position: relative;
+  width: 26px;
+  height: 40px;
+  margin: 0 auto 20px;
+  background: url("../img/icon-arrow-bottom.png") no-repeat;
+  animation: arrow 0.5s ease-in infinite alternate;
+}
+
+@keyframes arrow {
+  0% {
+    margin-bottom: 20px;
+  }
+  100% {
+    margin-bottom: 30px;
+  }
+}

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <title>Gae's Portfolio</title>
+ <meta name="description" content="DESCRIPTION">
+ <link rel="stylesheet" href="./asset/css/fullpage.min.css">
+ <link rel="stylesheet" href="./asset/css/style.css">
+ <script type="text/javascript" src="./js/jquery_3.5.1.js"></script>
+ <script type="text/javascript" src="./js/fullpage.min.js"></script>
+ <script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+
+  <div id="full-page">
+
+    <div id="s01" class="section s01">
+      <div class="title">
+        <h2>LEE YOUNG WOO</h2>
+        <span>Web Publisher</span>
+        <div class="icon-box m20">
+          <a href="https://github.com/hawgae"><img src="./asset/img/icon-github.png" alt="Github"></a>
+          <a href="#"><img src="./asset/img/icon-naver.png" alt="Naver"></a>
+        </div>
+      </div>
+      <div class="wheel-box">
+        <div class="wheel">
+          <div class="inner-wheel">
+            <div class="circle"></div>
+          </div>
+        </div>
+        <span>SCROLL TO EXPLORE</span>
+      </div>
+      <div class="effect-box">
+        <div class="sun"></div>
+        <div class="sun elem01"></div>
+      </div>
+    </div>
+    <div id="s02" class="section s02">
+      <div class="item-box">
+        <div class="title">
+          <h2>Studio Big</h2>
+          <span>HTML5</span>
+          <span>CSS</span>
+          <span>JQUERY</span>
+          <p>
+            &nbsp;Studio Big은 아트토이, 일러스트 그래픽, 전시를 중심적으로<br>
+            창의적 콘텐츠를 생산하는 크리에이티브 스튜디오 입니다.
+          </p>
+        </div>
+        <div class="btn">
+          <a href="https://hawgae.github.io/Cafebaraboda/">View</a>
+        </div>
+        <div class="item-bg"></div>
+        <div class="item i01"></div>
+      </div>
+    </div>
+    <div id="s02" class="section s02">
+      <div class="item-box">
+        <div class="title">
+          <h2>Hongrui Zhen</h2>
+          <span>HTML5</span>
+          <span>CSS</span>
+          <span>JQUERY</span>
+          <p>
+            &nbsp;Studio Big은 아트토이, 일러스트 그래픽, 전시를 중심적으로<br>
+            창의적 콘텐츠를 생산하는 크리에이티브 스튜디오 입니다.
+          </p>
+        </div>
+        <div class="btn">
+          <a href="https://hawgae.github.io/Hongrui-Zhen/">View</a>
+        </div>
+        <div class="item-bg"></div>
+        <div class="item i02"></div>
+      </div>
+    </div>
+    <div id="s02" class="section s02">
+      <div class="item-box">
+        <div class="title">
+          <h2>Cafe, Baraboda</h2>
+          <span>HTML5</span>
+          <span>CSS</span>
+          <span>JQUERY</span>
+          <span>SASS</span>
+          <p>
+            &nbsp;Studio Big은 아트토이, 일러스트 그래픽, 전시를 중심적으로<br>
+            창의적 콘텐츠를 생산하는 크리에이티브 스튜디오 입니다.
+          </p>
+        </div>
+        <div class="btn">
+          <a href="https://hawgae.github.io/Cafebaraboda/">View</a>
+        </div>
+        <div class="item-bg"></div>
+        <div class="item i03"></div>
+      </div>
+    </div>
+
+  </div>
+  <script>
+    new fullpage('#full-page', {
+      licenseKey: '',
+      sectionsColor: ['#161616','#161616','#161616','#161616','#161616'], // 순서대로, section 의 background 색상 지정.
+      navigation: true,
+      navigationTooltips: ['HOME','Studio Big','Hongrui Zhen','Cafe Baraboda','About']
+    });
+  </script>
+</body>
+</html>
